@@ -1,0 +1,1023 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Offers</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/packages.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-wrapper">
+            <div class="sidebar-close">
+                <i class="fa-solid fa-xmark"></i>
+                <a href="/index" class="sidebar-img">
+                    <img src="./assets/img/logo/uni.png" alt="logo">
+                </a>
+            </div>
+            <div class="sidebar-body">
+                <a href="/overview" class="sidebar-item">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+                <a href="/home" class="sidebar-item">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Shopping
+                </a>
+                <a href="#partner" class="sidebar-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    Partner
+                </a>
+                <a href="/seller" class="sidebar-item">
+                    <i class="fa-solid fa-store"></i>
+                    Become a seller
+                </a>
+                <a href="/pools" class="sidebar-item">
+                    <i class="fa-solid fa-droplet"></i>
+                    Become a pooler
+                </a>
+                <a href="/pools" class="sidebar-item">
+                    <i class="fa-solid fa-globe icon-item"></i>
+                    Language
+                </a>
+
+                <a href="/pools" class="sidebar-item">
+                    <i class="fa-solid fa-cart-shopping icon-item"></i>
+                    Cart details
+                </a>
+                <a href="/pools" class="sidebar-item">
+                    <i class="fa-solid fa-bell icon-item"></i>
+                    Notification
+                </a>
+
+
+                <div class="sidebar-bottom">
+                    <a href="/login" class="sidebar-item action">
+                        <i class="fa-regular fa-user"></i>
+                        Profile
+                    </a>
+                    <a href="/register" class="sidebar-item action">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Logout
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div data-aos="flip-down" class="navbar-container">
+                <!-- brand -->
+                <div class="brand">
+                    <a href="/index">
+                        <img class="brand-img" src="./assets/img/logo/Unidi Logo1.png" alt="logo">
+                    </a>
+
+                </div>
+
+                <!-- nav link -->
+                <div class="nav-link header-nav">
+                    <ul class="navbar-nav">
+                        <li class=" nav-item">
+                            <a href=" /home" class="nav-item">Shopping</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#partner" class="nav-item">Partner</a>
+                        </li>
+
+                        <li class="nav-item nav-item-more">
+                            <div class="nav-item " style="display:flex;gap:10px;align-items:flex-end">
+                                More<i class=" fa-solid fa-angle-down"></i>
+                                <div class="nav-more-body">
+                                    <a href="/seller" class="nav-more-link">
+                                        <i class="fa-solid fa-shop"></i>
+                                        <span>Become a seller</span>
+                                    </a>
+                                    <a href="/pools" class="nav-more-link">
+                                        <i class="fa-solid fa-droplet"></i>
+                                        <span>Become a pooler</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!-- action search -->
+                    <div class="header-search-body">
+                        <div class="navbar-action header-search">
+                            <i class="fa-solid fa-magnifying-glass nav-search "></i>
+                            <input id="search-input" type="text" class="search-input" placeholder="Search...">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- icon -->
+                <div class="navbar-icon">
+                    <div class="containerLogin">
+                        <div class="nav-item nav-item-more">
+                            <div class="nav-item " style="display:flex;gap:10px;align-items:flex-end">
+                                Hello - Abi <i class=" fa-solid fa-angle-down"></i>
+                                <div class="nav-more-body" style="width: 150px;">
+                                    <a href="/seller" class="nav-more-link">
+                                        <i class="fa-regular fa-user"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                    <a href="/pools" class="nav-more-link">
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <a href="" class="icon-none">
+                        <i class="fa-solid fa-magnifying-glass icon-item "></i>
+                    </a>
+                    <a href="" class="icon-user">
+                        <i class="fa-solid fa-globe icon-item"></i>
+                    </a>
+                    <a href="" class="icon-user">
+                        <i class="fa-solid fa-cart-shopping icon-item"></i>
+                    </a>
+                    <a href="" class="icon-user">
+                        <i class="fa-solid fa-bell icon-item"></i>
+                    </a>
+
+
+                </div>
+                <!-- Menu button -->
+                <div class="navbar-menu" id="menu-mobile">
+                    <div>
+                        <i class="fa-solid fa-bars icon-item"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="offers">
+        <div class="container">
+            <div class="offers-container">
+                <div data-aos="fade-down" class="offers-header">
+                    <h2>Choose packages with attractive offers</h2>
+                </div>
+                <div class="offers-content">
+                    <div data-aos="fade-right" class="offers-box">
+                        <div class="offers-logo">
+                            <img src="./logo/logo.png" alt="">
+                        </div>
+                        <div class="offers-items">
+                            <h3 class="offers-heading">Basic</h3>
+                            <h3 class="offers-number">$10.000</h3>
+                            <h3 class="offers-pink">$5.000</h3>
+                            <div class=" offers-items offers-details">
+                                <h4>Over 4 year</h4>
+                                <h4>Then $1000 per year
+                                </h4>
+                                <h4>(Automatic renewal subscription package)</h4>
+                            </div>
+
+                        </div>
+                        <a href="./buynow.html">
+                            <button class="btn-text btn-pink">Buy Now</button>
+                        </a>
+                        <div class="offers-list">
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                List coins and upload logo to the UNIDI platform
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Hang project banner on UNIDI landing page
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                New on UNIDI
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="offers-box">
+                        <div class="offers-logo">
+                            <img src="./logo/lo2.png" alt="">
+                        </div>
+                        <div class="offers-items">
+                            <h3 class="offers-heading">Standard</h3>
+                            <h3 class="offers-number ">$23.000</h3>
+                            <h3 class="offers-blu">$10.000</h3>
+                            <div class=" offers-items offers-details">
+                                <h4>Over 4 year</h4>
+                                <h4>Then $1000 per year
+                                </h4>
+                                <h4>(Automatic renewal subscription package)</h4>
+                            </div>
+
+                        </div>
+                        <a href="./buynow.html">
+                            <button class="btn-text btn-blu">Buy Now</button>
+                        </a>
+
+                        <div class="offers-list">
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Press coverage on Yahoo Finance, MarketWatch, and over 300 international news articles
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Place partner logo on UNIDI
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                UNIDI sponsor-tweeting the project on Twitter
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-aos="fade-left" class="offers-box">
+                        <div class="offers-logo">
+                            <img src="./logo/lo3.png" alt="">
+                        </div>
+                        <div class="offers-items">
+                            <h3 class="offers-heading">Professional</h3>
+                            <h3 class="offers-number">$42.400
+                            </h3>
+                            <h3 class="offers-red">$15.000</h3>
+                            <div class=" offers-items offers-details">
+                                <h4>Over 4 year</h4>
+                                <h4>Then $1000 per year
+                                </h4>
+                                <h4>(Automatic renewal subscription package)</h4>
+                            </div>
+                        </div>
+                        <a href="./buynow.html">
+                            <button class="btn-text btn-red">Buy Now</button>
+                        </a>
+
+
+                        <div class="offers-list">
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Email marketing (500k emails from the Crypto community)
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Voting & reputable reviews for Crypto on 15 to 20 reputable rating platforms
+                            </div>
+                            <div class="offers-list-items">
+                                <img src="./logo/tick 1.svg" alt="">
+                                Live-streaming the Crypto project on Binance, Huobi, Gate platforms
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <section data-aos="zoom-in-down" class="detailed-table">
+        <div class="container">
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        No
+                    </div>
+                    <div class=" table-items table-service ">
+                        Service
+                    </div>
+                    <div class=" table-items table-details"> Details
+                    </div>
+                </div>
+                <div class="detailed-content">
+                    <div class=" table-items">
+                        Basic
+                    </div>
+                    <div class=" table-items">
+                        Standard
+                    </div>
+                    <div class=" table-items">
+                        Professional
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        1
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        List coins and upload logo to the UNIDI platform
+                    </div>
+                    <div class=" table-items table-details table-item"> $5.000 for the first 3 years, and a maintenance
+                        fee of $1.000 from the 4th year onward.
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        2
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Hang the project banner on the UNIDI Landing page
+                    </div>
+                    <div class=" table-items table-details table-item">$200 / 3 months
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        3
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Hang the product/shop banner on the UNIDI.NET page
+                    </div>
+                    <div class=" table-items table-details table-item">$200 / 3 months
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        4
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Referral link for accessing the project
+                    </div>
+                    <div class=" table-items table-details table-item">$200 / 3 months
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        5
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Place partner logo on UNIDI.NET
+                    </div>
+                    <div class=" table-items table-details table-item">$1.000 / 12 months
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class=" icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        6
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Support listing and audit project information on CoinMarketCap, CoinGecko, Crypto.com (depending
+                        on the project)
+                    </div>
+                    <div class=" table-items table-details table-item">$5.000
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class=" icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        7
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        VIP meeting with investment funds and partners
+                    </div>
+                    <div class=" table-items table-details table-item">$10.000
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class=" icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class=" icon-x fa-solid fa-circle-xmark"></i>
+
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        8
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Press coverage on Yahoo Finance, MarketWatch, and over 300 international news articles
+                    </div>
+                    <div class=" table-items table-details table-item">$2.500 media package
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        9
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        AMA (Ask Me Anything) for the project on the UNIDI platform
+                    </div>
+                    <div class=" table-items table-details table-item">1 campaign per month, 4 sessions, valued at $2000
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class=" icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        10
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        New on UNIDI
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        11
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        UNIDI sponsored tweet + Infographic
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="icon-x fa-solid fa-circle-xmark"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        12
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        UNIDI promote tweet
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        13
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        UNIDI sponsored pinned tweet
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        14
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Package of 10 influential KOLs, YouTuber reviews about the project
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="icon-x fa-solid fa-circle-xmark"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        15
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Email marketing (500k emails from the Crypto community)
+                    </div>
+                    <div class=" table-items table-details table-item">$200 per article
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        16
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Voting & reputable reviews for Crypto on 15 to 20 reputable rating platforms
+                    </div>
+                    <div class=" table-items table-details table-item">$1.000
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="fa-solid fa-circle-check"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="detailed-table-container">
+                <div class="detailed-content detailed-item1 ">
+                    <div class="table-items table-no">
+                        17
+                    </div>
+                    <div class=" table-items table-service table-item">
+                        Live-streaming the Crypto project on Binance, Huobi, Gate platforms
+                    </div>
+                    <div class=" table-items table-details table-item">45 to 60 minutes per session; 3 sessions on 3
+                        platforms (total value $9000 package)
+                    </div>
+                </div>
+
+                <div class="detailed-content">
+                    <div class=" table-items table-basic">
+                        <i class="icon-x fa-solid fa-circle-xmark"></i>
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        <i class="icon-x fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <div class=" table-items table-professional">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+
+            </div>
+            <!-- total -->
+            <div class="detailed-table-container">
+                <div class="detailed-total detailed-color ">
+                    <div class=" table-items table-service ">
+                        Total($)
+                    </div>
+
+                </div>
+
+                <div class="detailed-content detailed-color ">
+                    <div class=" table-items table-basic">
+                        10.000
+
+                    </div>
+                    <div class=" table-items table-standard">
+                        23.000
+                    </div>
+                    <div class=" table-items table-professional">
+                        42.400
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div data-aos="fade-up" class="footer-container">
+                <div class="footer-link">
+                    <!-- about -->
+                    <div>
+                        <h5>About</h5>
+                        <ul class="text-md">
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Business</a>
+                            </li>
+                            <li>
+                                <a href="">Community</a>
+                            </li>
+                            <li>
+                                <a href="">Contacts</a>
+                            </li>
+                            <li>
+                                <a href="">Teams</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="">News</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5>Product</h5>
+                        <ul class="text-md">
+                            <li>
+                                <a href="">Download</a>
+                            </li>
+                            <li>
+                                <a href="">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="">Locations</a>
+                            </li>
+                            <li>
+                                <a href="">Server</a>
+                            </li>
+                            <li>
+                                <a href="">Countries</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5>Service</h5>
+                        <ul class="text-md">
+                            <li>
+                                <a href="">Downloads </a>
+                            </li>
+                            <li>
+                                <a href="">Desktop</a>
+                            </li>
+                            <li>
+                                <a href="">Application</a>
+                            </li>
+                            <li>
+                                <a href="">Referral</a>
+                            </li>
+                            <li>
+                                <a href="">Affiliate</a>
+                            </li>
+                            <li>
+                                <a href="">Listing</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h5>Support</h5>
+                        <ul class="text-md">
+                            <li>
+                                <a href="">Support Center
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">24/7 Chat Support</a>
+                            </li>
+                            <li>
+                                <a href="">Fees</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h5>Learn</h5>
+                        <ul class="text-md">
+                            <li>
+                                <a href="">Learn & Earn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Buy BNB</a>
+                            </li>
+                            <li>
+                                <a href="">Buy BUSD</a>
+                            </li>
+
+                            <li>
+                                <a href="">Buy Bitcoin</a>
+                            </li>
+
+                            <li>
+                                <a href="">Buy Ethereum</a>
+                            </li>
+
+                            <li>
+                                <a href="">Buy SEF</a>
+                            </li>
+                            <li>
+                                <a href="">Buy ITG</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- local brand -->
+
+                    <div>
+                        <h5>Community</h5>
+                        <!-- img -->
+                        <div>
+                            <div class="footer-box">
+                                <!-- local -->
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class="fa-brands fa-apple icon-ap"></i>
+                                    </div>
+
+                                </div>
+
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class=" icon-ap fa-brands fa-android"></i>
+                                    </div>
+                                </div>
+
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class=" icon-ap fa-brands fa-google-play"></i>
+                                    </div>
+                                </div>
+
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class=" icon-ap fa-solid fa-circle-xmark"></i>
+                                    </div>
+                                </div>
+
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class=" icon-ap fa-brands fa-windows"></i>
+                                    </div>
+                                </div>
+
+                                <div class="shop-brand">
+                                    <div>
+                                        <i class=" icon-ap fa-brands fa-linux"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="footer__after">
+        <span>
+            Unidi
+        </span>
+
+        <i class="fa-regular fa-copyright"></i>
+        <span>2023</span>
+    </div>
+    <!-- Scripts -->
+    <script>
+        const menu = document.getElementById("menu-mobile");
+        const sidebar = document.querySelector(".sidebar");
+        const close = document.querySelector(".sidebar-close i");
+        const sidebarbody = document.querySelector(".sidebar-wrapper");
+
+        menu.onclick = () => {
+            sidebar.style = "left:0";
+            sidebarbody.style = "transform:translateX(0%);"
+        }
+        close.onclick = () => {
+            sidebar.style = "left:100%";
+            sidebarbody.style = "transform:translateX(100%);"
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 750 });
+    </script>
+
+</body>
+
+</html>
