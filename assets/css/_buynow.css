@@ -10,7 +10,7 @@
 
 }
 .containerDeposit h2 {
-    margin-bottom: 40px ;
+    margin-bottom: 20px ;
 
 }
 
@@ -45,6 +45,7 @@
 
 .containerBodyDeposit .containerDeposit .containerAll {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -159,11 +160,6 @@
     color: #fff;
 }
 
-/* .containerBodyDeposit .containerDeposit .containerAll .dropdown .option .optionCoin h6 {
-    font-size: 12px;
-    font-weight: 400;
-    margin-left: 4px;
-} */
 h6 {
     font-size: 14px;
     font-weight: 400;
@@ -395,19 +391,7 @@ h6 {
     font-weight: 400;
     color: #000;   
 }
-/* .status-popup {
-    display: none;
-    position: fixed;
-    top: -17%;
-    left: 50%; 
-    transform: translateX(-50%); 
-    background-color: #c26161;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    padding: 10px;
-    transition: all 1s ease-out;
-} */
+
 
 .status-popup {
     display: none;
@@ -421,6 +405,21 @@ h6 {
     color: white;
     padding: 10px;
     transition: all 1s ease-out;
+}
+
+.payment {
+    margin-bottom: 90px;
+}
+.p-item  {
+
+    padding: 10px;
+}
+.p-item {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.p-item  h4 {
+    margin-top: 0;
 }
 
 @media (max-width: 768px) {
