@@ -171,9 +171,14 @@ grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
     color: #FF0000;
     font-weight: 600;
 }
-.detailed-color:not(:first-child){
+/* .detailed-color:not(:first-child){
     text-decoration: line-through;
     
+} */
+.table-items span {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .table-items > i:not(.icon-x) {
     color: #04db61;
