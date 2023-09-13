@@ -26,16 +26,19 @@ i {
     cursor: pointer;
 }
 body {
-    /* background-color: #c5ebf5; */
+    background-color: #c5ebf5;
     min-height: 100vh
 }
 body {
     font-family: var(--body-ff);
+    background-color: #c5ebf5;
     font-size: var(--fs-base); 
    font-weight: 400;
     color: var(--body-color);
-    background-color: #F1EFEF;
+    /* background-color: #F1EFEF; */
 }
+
+
 .container {
     max-width: 87.5rem;
     margin: 0 auto;

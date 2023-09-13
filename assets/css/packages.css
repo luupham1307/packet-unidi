@@ -167,8 +167,13 @@ grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
     grid-template-columns: 100%;
 }
 .detailed-color {
+   
     color: #FF0000;
     font-weight: 600;
+}
+.detailed-color:not(:first-child){
+    text-decoration: line-through;
+    
 }
 .table-items > i:not(.icon-x) {
     color: #04db61;
@@ -179,6 +184,9 @@ grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
 }
 
 .list-hidden {
+    display: none;
+}
+i.icon-x.fa-solid.fa-circle-xmark {
     display: none;
 }
 @media (max-width: 1200px) {
