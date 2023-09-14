@@ -4,8 +4,8 @@
 .btn-text {
     display: flex;
     margin: 0 auto;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 1.125rem;
+    font-weight: 600;
     color: #fff;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@
     flex-direction: column;
     flex: 1;
     position: relative;
-    padding: 40px 50px;
+    padding: 30px 30px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -67,7 +67,7 @@
     
 }
 .offers-box img {
-    max-width: 90px;
+    max-width: 93px;
 }
 .btn-pink {
     background-color: #F831FC;
@@ -89,7 +89,7 @@
   height: auto;
 }
 .offers-logo img {
-    padding-left: 16px;
+    padding-left: 9px;
 }
 .offers-items {
     text-align: center;
@@ -98,7 +98,7 @@
     padding-bottom: 20px;
 }
 .offers-list {
-    margin: 28px 0;
+    margin: 28px 0 0 0;
 }
 
 .offers-list-items {display: flex;
@@ -194,6 +194,11 @@ grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
 i.icon-x.fa-solid.fa-circle-xmark {
     display: none;
 }
+.offers-list {
+    display: none;
+    max-height: 180px; 
+    overflow-y: auto; 
+}
 @media (max-width: 1200px) {
     .offers-content {
       --grid-cols: 2;
@@ -205,9 +210,9 @@ i.icon-x.fa-solid.fa-circle-xmark {
       /* padding: 2rem 4rem; */
 
     }
-    .offers-box  {
+    /* .offers-box  {
     padding: 40px 30px;
-    }
+    } */
     
   }
 
@@ -215,7 +220,7 @@ i.icon-x.fa-solid.fa-circle-xmark {
  .detailed-table {
     display: none;
  }
- .list-hidden {
+ .list-hidden, .offers-list {
     display: block;
  }
 
